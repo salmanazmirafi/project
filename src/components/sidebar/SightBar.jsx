@@ -26,6 +26,7 @@ const SightBar = () => {
               key={index}
             >
               <item.icon />
+
               <span>{item.heading}</span>
             </div>
           );
